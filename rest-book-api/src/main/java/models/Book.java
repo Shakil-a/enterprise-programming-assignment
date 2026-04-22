@@ -1,5 +1,10 @@
 package models;
 
+import jakarta.xml.bind.annotation.*;
+
+
+@XmlRootElement(name = "book")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Book {
 
 	int id;
